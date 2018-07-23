@@ -36,7 +36,7 @@
 
     @include bp(max-width, $bp-small) {
       width: 90vw;
-      overflow-x: scroll;
+      overflow-x: auto;
     }
   }
   &-close {
